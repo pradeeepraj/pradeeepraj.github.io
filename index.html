@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,40 +9,105 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    <section>
-        <div class="container">
-            <div class="left-menu text-center">
-                <img src="assets/images/profile.jpg" width="150px" height="150px" id="profile" alt="">
-                <h3>Pradeep</h3>
-                <ul id="content">
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
-                </ul>
-                <footer>
-                    <p>Connect with me on</p>
-                    <div id="icons">
-                        <a href="">
-                            <img src="" alt="">
-                        </a>
-                        <a href="">
-                            <img src="" alt="">
-                        </a>
-                        <a href="">
-                            <img src="" alt="">
-                        </a>
-                        <a href="">
-                            <img src="" alt="">
-                        </a>
-                    </div>
-                </footer>
+    <section class="container">
+        <div class="left-menu text-center">
+            <img src="assets/images/profile.jpg" width="150px" height="150px" id="profile" alt="">
+            <h3>Pradeep R</h3>
+            <ul id="content">
+                <li><a href="#description">About</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="#about">Contact</a></li>
+            </ul>
+            <footer>
+                <p class="text-center">Connect with me on</p>
+                <div id="icons">
+                    <a href="">
+                        <img class="social-icon" src="assets/images/git.svg" width="20px" height="20px" alt="">
+                    </a>
+                    <a  target="_blank" href="https://www.linkedin.com/in/pradeep-r-985730159/">
+                        <img class="social-icon" src="assets/images/linkedin.svg" width="20px" height="20px" alt="">
+                    </a>
+                    <a href="">
+                        <img class="social-icon" src="assets/images/twitter.svg" width="20px" height="20px" alt="">
+                    </a>
+                    <!--<a href="">
+                        <img src="" alt="">
+                    </a>-->
+                </div>
+            </footer>
+        </div>
+        <div class="main" id="description">
+            <div class="main-content">
+                <h1>Hello I'm pradeep</h1>
+                <h1 id="spin"></h1>
+                <hr>
             </div>
-            <div class="main">
-                <h1>Hello Im pradeep</h1>
-                <h1>Front End Developer</h1>
+        </div>
+        <div class="primary-content" id="about">
+            <h2>About Me</h2>
+            <h2>An Engineer turned Developer !!!</h2>
+            <p>On my own interest and passion for development, I started learning programming. I build interactive websites
+                that runs across platforms and devices. I'm very familiar with using frameworks, my websites are primarily
+                hand-coded using HTML5, CSS3 & JavaScript. I'm always motivated and have the desire to learn more.</p>
+            <div class="quote">
+               <q>What we learn with pleasure, we never forget</q>   
+            </div>       
+        </div>
+        
+        </div>
+        <div id="skills" class="primary-content">
+            <div>
+                <h2>Skills :</h2>
+                <ul class="dev-skills">
+                    <li>
+                        <img src="assets/images/html.svg" width="" height="" alt="html-icon">
+                        <h4>Html 5</h4>
+                    </li>
+                     <li>
+                        <img src="assets/images/css.svg" width="" height="" alt="html-icon">
+                        <h4>Css 3</h4>
+                    </li>
+                     <li>
+                        <img src="assets/images/js.svg" width="" height="" alt="html-icon">
+                        <h4>Javascript</h4>
+                    </li>
+                </ul>
+                <h2>Frameworks</h2>
+                <ul class="dev-skills">
+                    <li>
+                        <img src="assets/images/bootstrap.svg" width="" height="" alt="html-icon">
+                        <h4>Bootstrap 4</h4>
+                    </li>
+                </ul>   
+                <h2>Tools</h2>
+                <ul class="dev-skills">
+                    <li>
+                        <img src="assets/images/github.svg" width="" height="" alt="html-icon">
+                        <h4>Github</h4>
+                    </li>                    
+                    <li>
+                        <img src="assets/images/vsc.svg" width="" height="" alt="html-icon">
+                        <h4>Visual studio</h4>
+                    </li>
+                    <li>
+                        <img src="assets/images/codepen.svg" width="" height="" alt="html-icon">
+                        <h4>Codepen</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="primary-content">
+            <div class="contact-form">
+            <h3>Feel free to contact me </h3>
+            <h3>Drop a mail here</h3>
+            <a href="mailto:pradeeprajk25@gmail.com">pradeeprajk25@gmail.com</a> 
+             <h3>Give me a call on </h3>
+             <a href="tel:+917200363696">7200363696</a>
             </div>
         </div>
     </section>
 </body>
+
 </html>
